@@ -23,12 +23,11 @@ int main() {
     std::ios::sync_with_stdio(false);
     std::ifstream inputFile("day3.txt");
     if (!inputFile.is_open()) {
-        std::cerr << "Error opening file." << std::endl;
+        std::cerr << "Error opening file.\n";
         return 1;
     }
 
     std::string bank;
-    std::vector<std::string> banks;
     int sum = 0;
 
     while (getline(inputFile, bank)) {

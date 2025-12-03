@@ -6,7 +6,7 @@ int main() {
     std::ios::sync_with_stdio(false);
     std::ifstream inputFile("day1.txt");
     if (!inputFile.is_open()) {
-        std::cerr << "Error opening file." << std::endl;
+        std::cerr << "Error opening file.\n";
         return 1;
     }
 
@@ -27,7 +27,7 @@ int main() {
 
     inputFile.close();
 
-    std::cout << "Total times at zero: " << zeroCount << std::endl;
+    std::cout << "Total times at zero: " << zeroCount << "\n";
 
     return zeroCount;
 }

@@ -21,7 +21,7 @@ int main() {
     std::ios::sync_with_stdio(false);
     std::ifstream inputFile("day2.txt");
     if (!inputFile.is_open()) {
-        std::cerr << "Error opening file." << std::endl;
+        std::cerr << "Error opening file.\n";
         return 1;
     }
 
@@ -46,6 +46,6 @@ int main() {
         }
     }
 
-    std::cout << "Total sum of invalid IDs: " << sum << std::endl;
+    std::cout << "Total sum of invalid IDs: " << sum << "\n";
     return 0;
 }
