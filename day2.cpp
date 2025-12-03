@@ -2,7 +2,6 @@
 #include <vector>
 #include <string>
 #include <fstream>
-#include <regex>
 
 bool isInvalid(uint64_t num) {
     std::string numString = std::to_string(num);
