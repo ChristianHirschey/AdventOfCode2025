@@ -23,7 +23,7 @@ int main() {
     std::ios::sync_with_stdio(false);
     std::cin.tie(nullptr);
 
-    std::ifstream inputFile("test.txt");
+    std::ifstream inputFile("day7.txt");
     if (!inputFile.is_open()) {
         std::cerr << "Error opening file.\n";
         return 1;
